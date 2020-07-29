@@ -14,6 +14,8 @@ struct ContentView: View {
             GoogleMapsView()
                 .edgesIgnoringSafeArea(.top)
                 .frame(height: 300)
+            
+            PlacesView()
         }
     }
 }
