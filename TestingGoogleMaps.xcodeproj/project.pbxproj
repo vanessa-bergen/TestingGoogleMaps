@@ -16,6 +16,8 @@
 		C2C9CB8B24D1C35D006526E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C9CB8924D1C35D006526E5 /* LaunchScreen.storyboard */; };
 		C2C9CB9524D1CA54006526E5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C2C9CB9424D1CA54006526E5 /* Podfile */; };
 		C2C9CB9724D1D96A006526E5 /* GoogleMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C9CB9624D1D96A006526E5 /* GoogleMapsView.swift */; };
+		C2C9CB9924D1DA66006526E5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C9CB9824D1DA66006526E5 /* LocationManager.swift */; };
+		C2C9CB9B24D1DEEC006526E5 /* PlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C9CB9A24D1DEEC006526E5 /* PlacesManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		C2C9CB8C24D1C35D006526E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2C9CB9424D1CA54006526E5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C2C9CB9624D1D96A006526E5 /* GoogleMapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsView.swift; sourceTree = "<group>"; };
+		C2C9CB9824D1DA66006526E5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C2C9CB9A24D1DEEC006526E5 /* PlacesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				C2C9CB8024D1C358006526E5 /* SceneDelegate.swift */,
 				C2C9CB8224D1C358006526E5 /* ContentView.swift */,
 				C2C9CB9624D1D96A006526E5 /* GoogleMapsView.swift */,
+				C2C9CB9824D1DA66006526E5 /* LocationManager.swift */,
+				C2C9CB9A24D1DEEC006526E5 /* PlacesManager.swift */,
 				C2C9CB8424D1C35D006526E5 /* Assets.xcassets */,
 				C2C9CB8924D1C35D006526E5 /* LaunchScreen.storyboard */,
 				C2C9CB8C24D1C35D006526E5 /* Info.plist */,
@@ -223,8 +229,10 @@
 			files = (
 				C2C9CB9724D1D96A006526E5 /* GoogleMapsView.swift in Sources */,
 				C2C9CB7F24D1C358006526E5 /* AppDelegate.swift in Sources */,
+				C2C9CB9924D1DA66006526E5 /* LocationManager.swift in Sources */,
 				C2C9CB8124D1C358006526E5 /* SceneDelegate.swift in Sources */,
 				C2C9CB8324D1C358006526E5 /* ContentView.swift in Sources */,
+				C2C9CB9B24D1DEEC006526E5 /* PlacesManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
