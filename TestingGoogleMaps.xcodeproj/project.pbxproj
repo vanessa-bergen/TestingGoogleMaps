@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		922981191399245EEE51ABED /* libPods-TestingGoogleMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6021A1B0BE686D45AA7D4B /* libPods-TestingGoogleMaps.a */; };
+		C2C08A6324D245AB007FB484 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C08A6224D245AB007FB484 /* Config.swift */; };
 		C2C9CB7F24D1C358006526E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C9CB7E24D1C358006526E5 /* AppDelegate.swift */; };
 		C2C9CB8124D1C358006526E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C9CB8024D1C358006526E5 /* SceneDelegate.swift */; };
 		C2C9CB8324D1C358006526E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C9CB8224D1C358006526E5 /* ContentView.swift */; };
@@ -26,6 +27,7 @@
 		49FEDD0C1BA09C79D4A9D504 /* Pods-TestingGoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingGoogleMaps.debug.xcconfig"; path = "Target Support Files/Pods-TestingGoogleMaps/Pods-TestingGoogleMaps.debug.xcconfig"; sourceTree = "<group>"; };
 		58FEF1537878430D8C3CDB53 /* Pods-TestingGoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingGoogleMaps.release.xcconfig"; path = "Target Support Files/Pods-TestingGoogleMaps/Pods-TestingGoogleMaps.release.xcconfig"; sourceTree = "<group>"; };
 		BD6021A1B0BE686D45AA7D4B /* libPods-TestingGoogleMaps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestingGoogleMaps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C08A6224D245AB007FB484 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		C2C9CB7B24D1C358006526E5 /* TestingGoogleMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingGoogleMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C9CB7E24D1C358006526E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2C9CB8024D1C358006526E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				C2C9CB7E24D1C358006526E5 /* AppDelegate.swift */,
+				C2C08A6224D245AB007FB484 /* Config.swift */,
 				C2C9CB8024D1C358006526E5 /* SceneDelegate.swift */,
 				C2C9CB8224D1C358006526E5 /* ContentView.swift */,
 				C2C9CB9624D1D96A006526E5 /* GoogleMapsView.swift */,
@@ -235,6 +238,7 @@
 			files = (
 				C2C9CB9724D1D96A006526E5 /* GoogleMapsView.swift in Sources */,
 				C2C9CB7F24D1C358006526E5 /* AppDelegate.swift in Sources */,
+				C2C08A6324D245AB007FB484 /* Config.swift in Sources */,
 				C2C9CB9F24D1E8CE006526E5 /* PlacesRow.swift in Sources */,
 				C2C9CB9924D1DA66006526E5 /* LocationManager.swift in Sources */,
 				C2C9CB9D24D1E4E0006526E5 /* PlacesView.swift in Sources */,
