@@ -7,8 +7,12 @@
 //
 
 import SwiftUI
+import GoogleMaps
 
 struct ContentView: View {
+    
+    @EnvironmentObject var locationManager: LocationManager
+    
     var body: some View {
         VStack {
             GoogleMapsView()
